@@ -1,0 +1,16 @@
+/*Contato*/
+body{
+    
+	background-color: #fff;
+    background: url(https://img4.goodfon.com/original/1366x768/c/ea/mlechnyi-put-zvezdy-noch-gory-peizazh-krasota.jpg),
+    url(https://img1.goodfon.com/original/1366x768/7/d1/kosmos-zvezdy-noch-4115.jpg),
+    url(https://img5.goodfon.com/original/1366x768/8/8b/mlechnyi-put-zvezdy-peizazh.jpg);    
+
+    color: #fff;
+
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+
