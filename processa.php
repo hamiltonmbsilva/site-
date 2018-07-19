@@ -22,7 +22,7 @@
         $mail = new SendGrid\Mail($from, $subject, $to, $content);
         
         //Necessário inserir a chave
-        $apiKey = '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';
+        $apiKey = 'senha do Sengrid';
         $sg = new \SendGrid($apiKey);
 
         $response = $sg->client->mail()->send()->post($mail);
