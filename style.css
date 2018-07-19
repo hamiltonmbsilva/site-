@@ -1930,5 +1930,52 @@ body {
   background-color: #00695c;
   padding-top: 8%;
   position: relative;
-  pa
+  
+}
+
+#contatoInterno{
+  background-color: #46d1c1;
+}
+
+/*POrtifolio*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,500,300,200,100,800);
+
+h1 {
+    color: #4C4C4C;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ion-minus{
+    padding:0px 10px;
+}
+
+.portfolio{
+    background-color:#46d1c1;
+	padding:60px 0px;
+	font-size:13px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.portfolio .img-rounded {
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.portfolio .img-rounded:hover {
+    -webkit-transform: scale(1.20);
+    -moz-transform: scale(1.20);
+    -ms-transform: scale(1.20);
+    -o-transform: scale(1.20);
+    transform: scale(1.20);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    opacity:0.7;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
